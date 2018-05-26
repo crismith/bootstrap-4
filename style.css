@@ -1,0 +1,129 @@
+*::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+html{
+	font-family: 'Nunito', sans-serif;
+}
+.bg-light {
+    background-color: #08c299!important;
+}
+.logo{
+	display: inherit;
+	color: rgb(3, 89, 156);
+}
+
+.jumbotron {
+    background-color: #fce8aa;
+    text-align: center;
+}
+.corazon{
+	color: #08c299;
+	font-size: 50px;
+}
+
+.lenguaje{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.col_vue{
+	padding-top: 10px;
+	padding-bottom:  30px; 
+	margin: 20px;
+	flex: 0 0 30%;
+	box-shadow: 0px 1px 10px -1px rgba(137, 149, 154, 0.59);
+}
+
+.col_laravel{
+	padding-top: 10px;
+	padding-bottom:  30px; 
+	margin: 20px;
+	flex: 0 0 30%;
+	box-shadow: 0px 1px 10px -1px rgba(137, 149, 154, 0.59);
+}
+
+.col_mysql{
+	padding-top: 10px;
+	padding-bottom:  30px; 
+	margin: 20px;
+	flex: 0 0 30%;
+	box-shadow: 0px 1px 10px -1px rgba(137, 149, 154, 0.59);
+}
+
+.footer{
+	text-align: center;
+}
+.text-muted{
+	color: #41b883 !important;
+    font-size: 30px;
+}
+.logo_he{
+	width: 230px;
+	height: 230px;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 640px) { 
+	.col_vue{
+		flex: 0 0 100%;
+	    max-width: 100%;
+	}
+
+	.col_laravel{
+		flex: 0 0 100%;
+	    max-width: 100%;
+	}
+
+	.col_mysql{
+		flex: 0 0 100%;
+	    max-width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) { 
+	.lenguaje{
+		justify-content: center;
+	}
+	.col_vue{
+		flex: 0 0 42%;
+	    max-width: 100%;
+	}
+
+	.col_laravel{
+		flex: 0 0 42%;
+	    max-width: 100%;
+	}
+
+	.col_mysql{
+		flex: 0 0 42%;
+	    max-width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1229px) { 
+	.lenguaje{
+		justify-content: center;
+	}
+	.col_vue{
+		flex: 0 0 28%;
+	    max-width: 100%;
+	}
+
+	.col_laravel{
+		flex: 0 0 28%;
+	    max-width: 100%;
+	}
+
+	.col_mysql{
+		flex: 0 0 28%;
+	    max-width: 100%;
+	}
+
+}
+
