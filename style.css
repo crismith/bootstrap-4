@@ -66,28 +66,29 @@ html{
 	height: 230px;
 }
 
-
 @media screen and (min-width: 360px) and (max-width: 640px) { 
-	.col_vue{
-		flex: 0 0 100%;
-	    max-width: 100%;
+	.h1_jumbotron{
+		color: #08c299;
+	    font-style: unset;
+	    font-weight: 400;
+	    font-size: 40px;
+
+	}
+	.lenguaje{
+		justify-content: center;
+		margin: 0;
+	}
+	.corazon {
+	    color: #35495e;
 	}
 
-	.col_laravel{
-		flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
-	.col_mysql{
-		flex: 0 0 100%;
-	    max-width: 100%;
-	}
-
+	
 }
 
 @media screen and (min-width: 641px) and (max-width: 1024px) { 
 	.lenguaje{
 		justify-content: center;
+		margin: 0;
 	}
 	.col_vue{
 		flex: 0 0 42%;
